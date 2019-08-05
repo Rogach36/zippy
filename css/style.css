@@ -1,3 +1,8 @@
 html {
   box-sizing: border-box;
+
+}
+
+.social-list {
+  list-style: none;
 }
