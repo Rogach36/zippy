@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: local('Helvetica Regular'), local('Helvetica-Regular'),
+        url('hinted-subset-Helvetica-Regular.woff2') format('woff2'),
+        url('hinted-subset-Helvetica-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
