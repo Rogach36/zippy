@@ -23,7 +23,7 @@
       </nav>
     </div>
   </header>
-  <main>
+  <main class="content">
     <h1 class="visually-hidden">Landing workshop</h1>
     <section class="some-features">
       <h2 class="visually-hidden">Featuries</h2>
@@ -47,7 +47,7 @@
 
 </div>
 
-      <ul class="possibilities">
+      <ul class="possibilities-list">
         <li class="possibility-1">
           <img src="img/welcome-block/bell-icon.png" alt="bell-image" width="" height="">
           <p class="possibilities-title">lorem ipsum</p>
@@ -72,31 +72,31 @@
         </li>
       </ul>
     </section>
-    <section class="Projects" id="project">
+    <section class="projects" id="project">
       <h2>Projects</h2>
-      <ul class="example-projects">
-        <li class="example-1">
+      <ul class="project-list">
+        <li class="project-1">
           <img src="img/projects/project-1.jpg" alt="project-pic-1" width="" height>
           <h3>Project name</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Pellentesque vel odio vel felis placerat pharetra ut vitae felis.</p>
           <a class="button button-study button-white" href="page-study-1.html">Launch case study</a>
         </li>
-        <li class="example-2">
+        <li class="project-2">
           <img src="img/projects/project-2.jpg" alt="project-pic-" width="" height>
           <h3>Project name</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Pellentesque vel odio vel felis placerat pharetra ut vitae felis.</p>
           <a class="button button-study button-purple" href="page-study-2.html">Launch case study</a>
         </li>
-        <li class="example-3">
+        <li class="project-3">
           <img src="img/projects/project-3.jpg" alt="project-pic-" width="" height>
           <h3>Project name</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Pellentesque vel odio vel felis placerat pharetra ut vitae felis.</p>
           <a class="button button-study button-white" href="page-study-3.html">Launch case study</a>
         </li>
-        <li class="example-4">
+        <li class="project-4">
           <img src="img/projects/project-4.jpg" alt="project-pic-" width="" height>
           <h3>Project name</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -146,7 +146,9 @@
         </tr>
       </table>
     </section>
+    <!-- --------------------------Слайдер------------------- -->
     <section class="video-projects">
+
       <h2>Video Projects</h2>
       <ul class="video-list">
         <li>
@@ -200,10 +202,13 @@
           <p>Senior Designer</p>
         </li>
       </ul>
+        <!-- --------------------------Слайдер------------------- -->
+        <!-- в слайдере следует сделать кнопки не изображениями, а кнопками <button type="button" name="button"></button>, при условии, что
+        слайдер будет интерактивным -->
       <section class="life-slider">
         <!-- может не заморачиваться с "рисованием" слайдера без JS? -->
         <h2>Life in Zippy</h2>
-        <div class="slide-zippy-life">
+        <div class="slider-zippy-life">
           <img src="" alt="">
         </div>
         <div class="galary-life">
@@ -231,7 +236,7 @@
         <li class="notice-1">
           <img src="img/blog/blog-1.jpg" alt="people working" width="207" height="112">
           <h3>lorem ipsum dolor sit amet</h3>
-          <p>15 Jan, 2015</p>
+          <time datetime="2015-01-15">15 Jan, 2015</time>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Pellentesque vel odio vel felis placerat pharetra ut vitae felis.</p>
           <a class="button button-blog button-yellow" href="blog-1.html">Read more</a>
@@ -239,7 +244,7 @@
         <li class="notice-2">
           <img src="img/blog/blog-2.jpg" alt="descussing people" width="207" height="112">
           <h3>lorem ipsum dolor sit amet</h3>
-          <p>15 Jan, 2015</p>
+          <time datetime="2015-01-15">15 Jan, 2015</time>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Pellentesque vel odio vel felis placerat pharetra ut vitae felis.</p>
           <a class="button button-blog button-grey" href="blog-2.html">Read more</a>
@@ -247,7 +252,7 @@
         <li class="notice-1">
           <img src="img/blog/blog-3.jpg" alt="smiling women" width="207" height="112">
           <h3>lorem ipsum dolor sit amet</h3>
-          <p>15 Jan, 2015</p>
+          <time datetime="2015-01-15">15 Jan, 2015</time>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Pellentesque vel odio vel felis placerat pharetra ut vitae felis.</p>
           <a class="button button-blog button-grey" href="blog-3.html">Read more</a>
