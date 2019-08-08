@@ -17,13 +17,53 @@ html {
 }
 
 body {
-  font-family: "Motserrat", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", Arial, sans-serif;
   font-weight: 700;
+  color: #000000;
+  background-color: #ffffff;
 }
 
 a {
   text-decoration: none;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.main-header,
+.some-features {
+  background-image: url("../img/background-feature/bg-1.jpg");
+  background-repeat: no-repeat;
+  background-color: #f5f5f5;
+}
+
+.main-header {
+  height: 645px;
+}
+
+.some-features {
+  height: 645px;
+}
+
+.main-navigation {
+  font-size: 10px;
+  line-height: 7px;
+}
+
+
+
 
 .possibilities-description {
   font-family: "Helvetica", Arial, sans-serif;
