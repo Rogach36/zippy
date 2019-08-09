@@ -42,12 +42,12 @@ a {
   overflow: hidden;
 }
 
-.main-header,
-.some-features {
+.wrapper-bg-1 {
   background-image: url("../img/background-feature/bg-1.jpg");
   background-repeat: no-repeat;
-  background-color: #f5f5f5;
-}
+  background-color: #dedede;
+  height: 645px;
+  }
 
 .main-navigation {
   font-size: 10px;
