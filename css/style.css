@@ -44,6 +44,7 @@ a {
 
 .wrapper-bg-1 {
   background-image: url("../img/background-feature/bg-1.jpg");
+  /* background-position: top center; */
   background-repeat: no-repeat;
   background-color: #dedede;
   height: 645px;
@@ -52,6 +53,34 @@ a {
 .main-navigation {
   font-size: 10px;
   line-height: 7px;
+  color: #ffffff;
+  }
+
+.logo {
+  font-size: 29px;
+  line-height: 7px;
+  color: #ffffff;
+  }
+
+.site-navigation,
+.possibilities-list,
+.project-list,
+.video-list,
+.team-list,
+.zippy-life-list,
+.our-notice,
+.map-location,
+.social-list {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: #ffffff;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #ffe26d;
 }
 
 .possibilities-description {
