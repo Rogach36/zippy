@@ -31,7 +31,7 @@ a {
   text-decoration: none;
 }
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -42,7 +42,7 @@ a {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 img {
   maх-width: 100%;
@@ -69,15 +69,7 @@ img {
   color: #ffffff;
   }
 
-.site-navigation,
-.possibilities-list,
-.project-list,
-.video-list,
-.team-list,
-.zippy-life-list,
-.our-notice,
-.map-location,
-.social-list {
+.site-navigation {
   list-style: none;
 }
 
@@ -90,31 +82,43 @@ img {
   color: #ffe26d;
 }
 
-/* .possibilities-list a,
-.project-list a,
-.price a,
-.our-notice a {
-  color: #000000;
+.feature-slide {
+  color: #ffffff;
 }
 
-.possibilities-list a:hover,
-.possibilities-list a:focus,
-.project-list a:hover,
-.project-list a:focus,
-.price a:hover,
-.price a:focus,
-.our-notice a:hover,
-.our-notice a:focus {
-  color: #ffffff;
-  background-color:
-} */
-
-.possibilities-description {
-  font-family: "Helvetica", Arial, sans-serif;
-  font-size: 13px;
+.feature-slide .title-slide {
+  font-size: 40.69px;
+  line-height: 120%;
 }
 
 .description-page {
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 100;
+  font-size: 19.16px;
+  line-height: 120%;
+}
+
+.button {
+  font-size: 10.32px;
+  line-height: 6.9px;
+  color: inherit;
+  background-color: #ffe26d;
+}
+
+.possibilities-list {
+  list-style: none;
+}
+
+.possibility {
+  text-align: center;
+}
+
+.main-idea h2 {
+  font-size: 44.21px;
+  line-height: 40.52px;
+}
+
+.possibilities-description {
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 13px;
 }
