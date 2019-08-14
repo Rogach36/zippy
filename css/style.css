@@ -171,7 +171,8 @@ img {
 
 .payment {
 font-weight: 400;
-  color: #9d9d9d;
+  /* color: #9d9d9d; */
+  opacity: 0.39;
 
 }
 
@@ -193,8 +194,11 @@ font-weight: 400;
 }
 
 .video-list p {
+  font-size: 10px;
+  line-height: 6.9px;
   text-transform: uppercase;
   color: #fefefe;
+
 }
 
 .team h2 {
@@ -207,9 +211,123 @@ font-weight: 400;
 }
 
 .team-member {
+  font-size: 15px;
+  line-height: 6.9px;
   text-transform: uppercase;
 }
 
 .post {
-  color: #9d9d9d;
+  font-size: 15px;
+  line-height: 6.9px;
+  /* color: #9d9d9d; */
+  opacity: 0.39;
+}
+
+.post-seo {
+  text-transform: uppercase;
+}
+
+.life-slider {
+  background-color: #efefef;
+}
+
+.zippy-life-list {
+  list-style: none;
+}
+
+.newsletter {
+  background-image: url("../img/background-feature/bg-2.jpg");
+  /* background-position: top center; */
+  background-repeat: no-repeat;
+  background-color: #fefefe;
+  height: 328px;
+}
+
+.newsletter h2 {
+  font-size: 44.21px;
+  line-height: 40.52px;
+  text-align: center;
+  color: #fefefe;
+}
+/*
+попробовать позадавать общие стили через группы селекторов с двумя уровнями вложенности, т.е.
+для центровки заголовков указать секцию и h2 и text-align: center; и можно и свойства шрифта тоже сюда,
+т.к. у всех заголовков второго уровня один и тот же шрифт, может только быть не удобно т.к. правило будет
+находитья в одном месте, а свойства применяться к разным элементам страницы, не очень удобно искать*/
+
+.blog h2 {
+  font-size: 44.21px;
+  line-height: 40.52px;
+}
+
+.our-notice {
+  list-style: none;
+}
+
+.notice {
+  font-size: 15px;
+}
+
+.notice h3 {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.notice time,
+.notice p {
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23.58px;
+
+}
+
+.notice time {
+  opacity: 0.5;
+}
+
+/* подумать надо оформлением кнопок при наведении тут серый фон и черный шрифт д.б. */
+
+  .map-location {
+    list-style: none;
+  }
+
+.form {
+  background-color: #ffe26d;
+}
+
+.connection {
+  font-size: 44.21px;
+  line-height: 40.52px;
+}
+
+.write-us {
+  font-size: 10px;
+  line-height: 6.9px;
+  text-transform: uppercase;
+}
+
+.send-button {
+  color: #fefefe;
+  background-color: #62497c;
+}
+
+.social-connection h3 {
+  font-size: 10px;
+  line-height: 10px;
+  text-transform: uppercase;
+}
+
+.social-connection p,
+.phone {
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23.58px;
+  color:inherit;
+}
+
+
+.social-list {
+  list-style: none;
 }
