@@ -24,7 +24,7 @@ body {
   line-height: 24px;
   font-weight: 700;
   color: #040405;
-  background-color: #ffffff;
+  background-color: #fefefe;
 }
 
 a {
@@ -138,7 +138,7 @@ img {
 }
 
 .projects h2 {
-  font-size: 44px;
+  font-size: 44.21px;
   line-height: 40.52px;
 }
 
@@ -155,7 +155,61 @@ img {
   line-height: 23.58px;
 }
 
-.pricing-table h2 {
-  font-size: 44px;
+.price {
+  text-align: center;
+}
+
+.pricing-table .table-name {
+  font-size: 44.21px;
   line-height: 40.52px;
+  }
+
+.plan-title {
+  font-size: 14.74px;
+  line-height: 6.9px;
+}
+
+.payment {
+font-weight: 400;
+  color: #9d9d9d;
+
+}
+
+.terms {
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 10.32px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.video-project {
+  background-color: #62497c;
+}
+
+.video-project h2 {
+  font-size: 44.21px;
+  line-height: 40.52px;
+  color: #fefefe;
+}
+
+.video-list p {
+  text-transform: uppercase;
+  color: #fefefe;
+}
+
+.team h2 {
+  font-size: 44.21px;
+  line-height: 40.52px;
+}
+
+.team-list {
+  list-style: none;
+}
+
+.team-member {
+  text-transform: uppercase;
+}
+
+.post {
+  color: #9d9d9d;
 }
