@@ -138,7 +138,7 @@ img {
 }
 
 .projects {
-  background-color: #efefef; 
+  background-color: #efefef;
 
 }
 
@@ -294,6 +294,17 @@ font-weight: 400;
 
 .notice time {
   opacity: 0.5;
+}
+
+.button-blog {
+  background-color: #ececec;
+}
+
+.button-blog:hover,
+.button-blog:focus,
+.button-blog:active {
+  color: inherit;
+  background-color: #ffe26d;
 }
 
 /* подумать над оформлением кнопок при наведении тут серый фон и черный шрифт д.б. */
