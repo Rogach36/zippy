@@ -1,18 +1,17 @@
 @font-face {
-    font-family: 'Helvetica';
-    src: local('Helvetica Regular'), local('Helvetica-Regular'),
+  font-family: 'Helvetica';
+  src: local('Helvetica Regular'), local('Helvetica-Regular'),
     url('fonts/helvetica/hinted-subset-Helvetica-Regular.woff') format('woff'),
-        url('fonts/helvetica/hinted-subset-Helvetica-Regular.woff2') format('woff2'),
+    url('fonts/helvetica/hinted-subset-Helvetica-Regular.woff2') format('woff2'),
     font-weight: normal;
-    font-style: normal;
+  font-style: normal;
 }
 
 html {
   box-sizing: border-box;
-
 }
 
-*,*::after, *::after {
+*, *::after, *::after {
   box-sizing: inherit;
 }
 
@@ -31,7 +30,7 @@ a {
   text-decoration: none;
 }
 
-/* .visually-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -42,7 +41,7 @@ a {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-} */
+}
 
 img {
   maх-width: 100%;
@@ -55,19 +54,19 @@ img {
   background-repeat: no-repeat;
   background-color: #dedede;
   height: 645px;
-  }
+}
 
 .main-navigation {
   font-size: 10px;
   line-height: 7px;
   color: #ffffff;
-  }
+}
 
 .logo {
   font-size: 29px;
   line-height: 7px;
   color: #ffffff;
-  }
+}
 
 .site-navigation {
   list-style: none;
@@ -139,7 +138,6 @@ img {
 
 .projects {
   background-color: #efefef;
-
 }
 
 .projects h2 {
@@ -172,7 +170,7 @@ img {
 .pricing-table .table-name {
   font-size: 44.21px;
   line-height: 40.52px;
-  }
+}
 
 .plan-title {
   font-size: 14.74px;
@@ -180,10 +178,9 @@ img {
 }
 
 .payment {
-font-weight: 400;
+  font-weight: 400;
   /* color: #9d9d9d; */
   opacity: 0.39;
-
 }
 
 .terms {
@@ -208,7 +205,6 @@ font-weight: 400;
   line-height: 6.9px;
   text-transform: uppercase;
   color: #fefefe;
-
 }
 
 .team h2 {
@@ -250,21 +246,29 @@ font-weight: 400;
   /* background-position: top center; */
   background-repeat: no-repeat;
   background-color: #fefefe;
-  height: 328px;
 }
 
 .newsletter h2 {
   font-size: 44.21px;
   line-height: 40.52px;
-  text-align: center;
+  /* text-align: center; */
   color: #fefefe;
 }
+
+.field-subscribe {
+  font-family: inherit;
+  font-size: 19.16px;
+  font-weight: 400;
+  line-height: 40.52px;
+  color: #d8d8d8;
+  border: 0;
+}
+
 /*
 попробовать позадавать общие стили через группы селекторов с двумя уровнями вложенности, т.е.
 для центровки заголовков указать секцию и h2 и text-align: center; и можно и свойства шрифта тоже сюда,
 т.к. у всех заголовков второго уровня один и тот же шрифт, может только быть не удобно т.к. правило будет
 находитья в одном месте, а свойства применяться к разным элементам страницы, не очень удобно искать*/
-
 .blog h2 {
   font-size: 44.21px;
   line-height: 40.52px;
@@ -289,7 +293,6 @@ font-weight: 400;
   font-size: 13px;
   font-weight: 400;
   line-height: 23.58px;
-
 }
 
 .notice time {
@@ -308,10 +311,9 @@ font-weight: 400;
 }
 
 /* подумать над оформлением кнопок при наведении тут серый фон и черный шрифт д.б. */
-
-  .map-location {
-    list-style: none;
-  }
+.map-location {
+  list-style: none;
+}
 
 .form {
   background-color: #ffe26d;
@@ -345,9 +347,8 @@ font-weight: 400;
   font-size: 13px;
   font-weight: 400;
   line-height: 23.58px;
-  color:inherit;
+  color: inherit;
 }
-
 
 .social-list {
   list-style: none;
