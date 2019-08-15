@@ -137,6 +137,11 @@ img {
   line-height: 23.58px;
 }
 
+.projects {
+  background-color: #efefef; 
+
+}
+
 .projects h2 {
   font-size: 44.21px;
   line-height: 40.52px;
@@ -146,6 +151,11 @@ img {
   font-size: 15px;
   line-height: 40.52px;
   text-transform: uppercase;
+}
+
+.button-study {
+  color: inherit;
+  background-color: inherit;
 }
 
 .projects p {
@@ -286,7 +296,7 @@ font-weight: 400;
   opacity: 0.5;
 }
 
-/* подумать надо оформлением кнопок при наведении тут серый фон и черный шрифт д.б. */
+/* подумать над оформлением кнопок при наведении тут серый фон и черный шрифт д.б. */
 
   .map-location {
     list-style: none;
