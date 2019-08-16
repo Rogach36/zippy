@@ -53,10 +53,16 @@ img {
   /* background-position: top center; */
   background-repeat: no-repeat;
   background-color: #dedede;
-  height: 645px;
+  }
+
+.main-header {
+  margin-bottom: 32px;
 }
 
 .main-navigation {
+  display: flex;
+  margin: 0;
+  padding-top: 40px;
   font-size: 10px;
   line-height: 7px;
   color: #ffffff;
@@ -69,6 +75,9 @@ img {
 }
 
 .site-navigation {
+  display: flex;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
