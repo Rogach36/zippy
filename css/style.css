@@ -330,9 +330,19 @@ img {
   text-transform: uppercase;
 }
 
+.write-us input,
+.field-message {
+  border: 0;
+}
+
 .send-button {
   color: #fefefe;
   background-color: #62497c;
+}
+
+.footer-social,
+.footer-contacts {
+  text-align: center;
 }
 
 .social-connection h3 {
