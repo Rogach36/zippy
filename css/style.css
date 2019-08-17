@@ -320,6 +320,11 @@ img {
 }
 
 /* подумать над оформлением кнопок при наведении тут серый фон и черный шрифт д.б. */
+.location h2 {
+  font-size: 44.21px;
+  line-height: 40.52px;
+}
+
 .map-location {
   list-style: none;
 }
