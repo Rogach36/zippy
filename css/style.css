@@ -50,15 +50,15 @@ img {
 
 .wrapper-bg-1 {
   background-image: url("../img/background-feature/bg-1.jpg");
-  /* background-position: top center; */
+  background-position: top center;
   background-repeat: no-repeat;
   background-color: #dedede;
   }
 
-.container-center {
+ .container-center {
   width: 1400px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 352px;
 }
 
 .main-header {
@@ -69,12 +69,14 @@ img {
   display: flex;
   margin: 0;
   padding-top: 40px;
+  margin-bottom: 124px;
   font-size: 10px;
   line-height: 7px;
   color: #ffffff;
 }
 
 .logo {
+  margin-right: 197px;
   font-size: 29px;
   line-height: 7px;
   color: #ffffff;
@@ -83,8 +85,18 @@ img {
 .site-navigation {
   display: flex;
   margin: 0;
+  margin-left : auto;
+  margin-right: 353px;
   padding: 0;
   list-style: none;
+}
+
+.site-navigation li {
+  margin-right: 37px;
+}
+
+.site-navigation li:last-child {
+  margin-right: 0;
 }
 
 .site-navigation a {
