@@ -113,11 +113,13 @@ img {
 }
 
 .feature-slide .title-slide {
+  margin-bottom: 29px;
   font-size: 40.69px;
   line-height: 120%;
 }
 
 .description-page {
+  margin-bottom: 32px;
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 400;
   font-size: 19.16px;
@@ -125,14 +127,19 @@ img {
 }
 
 .button {
+  display: block;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 125px;
   font: inherit;
   font-size: 10.32px;
   line-height: 6.9px;
   text-align: center;
   vertical-align: middle;
   text-transform: uppercase;
-  color: inherit;
+  color: #040405;
   background-color: #ffe26d;
+  border-radius: 3px;
   border: none;
 }
 
@@ -141,6 +148,15 @@ img {
 .button-active {
   background-color: #62497c;
   color: #ffffff;
+}
+
+.button-cover {
+  display: flex;
+  padding-bottom: 214px;
+}
+
+.button-info-1 {
+  margin-right: 4px;
 }
 
 .main-idea h2 {
