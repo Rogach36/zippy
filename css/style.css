@@ -177,11 +177,9 @@ img {
 .feature-controls a {
   display: inline-block;
   position: relative;
-  
   width: 7px;
   height: 7px;
   background-color: #a99a9e;
-  
   border-radius: 50%;
   }
 
@@ -200,6 +198,10 @@ img {
 .main-idea h2 {
   font-size: 44.21px;
   line-height: 40.52px;
+}
+/*main-idea можно сделать релатив, а зонт абсолютно спозиционировать*/
+.welcome-block h2 {
+  margin-bottom: 83px;
 }
 
 .possibilities-list {
