@@ -56,9 +56,9 @@ img {
   }
 
  .container-center {
-  width: 1400px;
+  width: 695px;
   margin: 0 auto;
-  padding: 0 352px;
+  padding: 0 10px;
 }
 
 .main-header {
@@ -117,10 +117,12 @@ img {
   margin-bottom: 29px;
   font-size: 40.69px;
   line-height: 120%;
+  padding-right: 95px;
 }
 
 .description-page {
   margin-bottom: 32px;
+  padding-right: 198px;
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 400;
   font-size: 19.16px;
@@ -158,6 +160,41 @@ img {
 
 .button-info-1 {
   margin-right: 4px;
+}
+
+.some-features {
+  position: relative;
+  margin-bottom: 90px;
+}
+
+.feature-controls {
+  position: absolute;
+  bottom: 37px;
+  width: 61px;
+  height: 8px;
+}
+
+.feature-controls a {
+  display: inline-block;
+  position: relative;
+  
+  width: 7px;
+  height: 7px;
+  background-color: #a99a9e;
+  
+  border-radius: 50%;
+  }
+
+.control-1,
+.control-2,
+.control-3 {
+  margin-right: 7px;
+}
+
+.feature-controls a:hover,
+.feature-controls a:focus,
+.feature-controls a:active {
+  background-color: #ffffff;
 }
 
 .main-idea h2 {
