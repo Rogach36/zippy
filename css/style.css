@@ -210,6 +210,7 @@ img {
 .main-idea h2 {
   font-size: 44.21px;
   line-height: 40.52px;
+  text-align: center;
 }
 
 .main-idea p {
@@ -218,7 +219,6 @@ img {
 
 .main-idea img {
   position: absolute;
-  display: block;
   top: 105px;
   left: 560px;
 }
@@ -255,6 +255,11 @@ img {
   font-weight: 400;
   line-height: 23.58px;
   padding: 0 2px;
+}
+
+.button-info {
+  display: block;
+  margin: 0 auto;
 }
 
 .projects {
