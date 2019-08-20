@@ -56,9 +56,9 @@ img {
   }
 
  .container-center {
-  width: 695px;
+  width: 700px;
   margin: 0 auto;
-  padding: 0 10px;
+  /* padding: 0 10px; */
 }
 
 .main-header {
@@ -120,11 +120,14 @@ img {
   padding-right: 95px;
 }
 
-.description-page {
-  margin-bottom: 32px;
-  padding-right: 198px;
+.description {
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 400;
+}
+
+.description-slide {
+  margin-bottom: 32px;
+  padding-right: 198px;
   font-size: 19.16px;
   line-height: 120%;
 }
@@ -195,21 +198,55 @@ img {
   background-color: #ffffff;
 }
 
-.main-idea h2 {
-  font-size: 44.21px;
-  line-height: 40.52px;
-}
-/*main-idea можно сделать релатив, а зонт абсолютно спозиционировать*/
 .welcome-block h2 {
   margin-bottom: 83px;
 }
 
+.main-idea {
+  position: relative;
+  margin-bottom: 74px;
+}
+
+.main-idea h2 {
+  font-size: 44.21px;
+  line-height: 40.52px;
+}
+
+.main-idea p {
+  width: 436px;
+}
+
+.main-idea img {
+  position: absolute;
+  display: block;
+  top: 105px;
+  left: 560px;
+}
+
+.description-page {
+  font-size: 29.4px;
+  line-height: 35px;
+  color: inherit;
+}
+/*main-idea можно сделать релатив, а зонт абсолютно спозиционировать*/
+
+
 .possibilities-list {
+  display: flex;
+  width: 700px;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
 .possibility {
+  width: 161px;
   text-align: center;
+  margin-right: 110px;
+  }
+
+.possibilities-list li:nth-child(3) {
+  margin-right: 0;
 }
 
 .possibilities-description {
@@ -217,6 +254,7 @@ img {
   font-size: 13px;
   font-weight: 400;
   line-height: 23.58px;
+  padding: 0 2px;
 }
 
 .projects {
