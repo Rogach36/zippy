@@ -200,7 +200,7 @@ img {
 
 .welcome-block {
   border-bottom: 2px solid  #e7e7e7;
-  padding-bottom:
+  margin-bottom: 56px;
 }
 
 .welcome-block h2 {
@@ -277,24 +277,50 @@ img {
   margin: 0 auto;
 }
 
-.projects {
-  background-color: #efefef;
+ .projects {
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .projects h2 {
   font-size: 44.21px;
   line-height: 40.52px;
+  text-align: center;
+  margin-bottom: 52px;
 }
 
-.projects h3 {
+.project-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #efefef;
+  }
+
+.project-list li {
+  margin: 0;
+  padding: 0;
+  width: 353px;
+}
+
+.project-list img {
+  margin-bottom: 25px;
+}
+
+.project-list h3 {
   font-size: 15px;
   line-height: 40.52px;
   text-transform: uppercase;
+  margin-bottom: 3px;
+  padding-left: 43px;
 }
 
 .button-study {
+  width: 162px;
   color: inherit;
-  background-color: inherit;
+  background-color: #fefefe;
+  margin-bottom: 45px;
+  margin-left: 43px;
 }
 
 .projects p {
@@ -302,6 +328,12 @@ img {
   font-size: 13px;
   font-weight: 400;
   line-height: 23.58px;
+  margin-bottom: 12px;
+  padding: 0 35px 0 43px;
+}
+
+.project:hover {
+  background-color: #ffe26d;
 }
 
 .price {
@@ -311,6 +343,7 @@ img {
 .pricing-table .table-name {
   font-size: 44.21px;
   line-height: 40.52px;
+  text-align: center;
 }
 
 .plan-title {
