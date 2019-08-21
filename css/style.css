@@ -233,7 +233,7 @@ img {
 
 .possibilities-list {
   display: flex;
-  width: 700px;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -242,7 +242,7 @@ img {
 .possibility {
   width: 161px;
   text-align: center;
-  margin-right: 110px;
+  margin-right: 108px;
   }
 
 .possibilities-list li:nth-child(3) {
