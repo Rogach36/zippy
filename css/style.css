@@ -198,6 +198,11 @@ img {
   background-color: #ffffff;
 }
 
+.welcome-block {
+  border-bottom: 2px solid  #e7e7e7;
+  padding-bottom:
+}
+
 .welcome-block h2 {
   margin-bottom: 83px;
 }
@@ -237,6 +242,7 @@ img {
   margin: 0;
   padding: 0;
   list-style: none;
+  margin-bottom: 57px;
 }
 
 .possibility {
@@ -245,17 +251,26 @@ img {
   margin-right: 108px;
   }
 
+.possibility img {
+  margin-bottom: 10px;
+}
+
 .possibilities-list li:nth-child(3) {
   margin-right: 0;
 }
 
+.possibilities-title {
+  margin-bottom: 20px;
+}
+
 .possibilities-description {
+  margin-bottom: 33px;
+  padding: 0 2px;
   font-family: "Helvetica", Arial, sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 23.58px;
-  padding: 0 2px;
-}
+  }
 
 .button-info {
   display: block;
