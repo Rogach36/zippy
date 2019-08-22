@@ -367,6 +367,10 @@ img {
   text-align: center;
 }
 
+.pricing-table {
+  margin-bottom: 90px;
+}
+
 .plan-title {
   font-size: 14.74px;
   line-height: 6.9px;
@@ -391,12 +395,44 @@ img {
 
 .video-project {
   background-color: #62497c;
+  margin-bottom: 73px;
 }
 
 .video-project h2 {
   font-size: 44.21px;
   line-height: 40.52px;
   color: #fefefe;
+  padding-top: 113px;
+  padding-bottom: 38px;
+  text-align: center;
+}
+
+.video-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 1400px;
+}
+
+.video-list li {
+  margin-right: 34px;
+}
+
+.video-list li:last-child {
+  margin-right: 0;
+}
+
+.middle-frame {
+  position: relative;
+}
+
+.time-middle {
+  position: absolute;
+  top: 468px;
+  left: 670px;
 }
 
 .video-list p {
@@ -404,6 +440,7 @@ img {
   line-height: 6.9px;
   text-transform: uppercase;
   color: #fefefe;
+  padding-bottom: 117px;
 }
 
 .team h2 {
