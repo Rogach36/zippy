@@ -87,7 +87,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
-  margin-left : auto;
+  margin-left: auto;
   padding: 0;
   list-style: none;
 }
@@ -541,6 +541,7 @@ img {
 background-position: top center;
   background-repeat: no-repeat;
   background-color: #fefefe;
+  margin-bottom: 67px;
   }
 
 .newsletter h2 {
@@ -590,20 +591,32 @@ background-position: top center;
 .blog h2 {
   font-size: 44.21px;
   line-height: 40.52px;
+  text-align: center;
+  margin-bottom: 49px;
 }
 
 .our-notice {
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .notice {
+  width: 207px;
   font-size: 15px;
+  margin-right: 36px;
+}
+
+.notice:last-child {
+  margin-right: 0;
 }
 
 .notice h3 {
   font-size: 15px;
   text-transform: uppercase;
-}
+  }
 
 .notice time,
 .notice p {
