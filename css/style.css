@@ -505,21 +505,50 @@ img {
 самому блоку задать position relativе, большой картинке absolute, а мальеним под ней тоже absolute
 и сделать этот ряд на флексах или попробовать сделать и большую и мал. картинки на флексах....*/
 
+.life-slider {
+  padding-top: 78px;
+  padding-bottom: 109px;
+  }
+
 .zippy-life-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 696px;
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.zippy-life-list li {
+    margin-right: 13px;
+}
+
+.zippy-life-list li:last-child {
+    margin-right: 0;
+}
+
+.main-frame {
+  order: 1;
+}
+
+.small-frame {
+  order: 2;
 }
 
 .newsletter {
   background-image: url("../img/background-feature/bg-2.jpg");
   /* background-position: top center; */
+background-position: top center;
   background-repeat: no-repeat;
   background-color: #fefefe;
-}
+  }
 
 .newsletter h2 {
   font-size: 44.21px;
   line-height: 40.52px;
-  /* text-align: center; */
+  margin: 0;
+  padding-top: 58px;
+  text-align: center;
   color: #fefefe;
 }
 
