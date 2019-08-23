@@ -447,6 +447,7 @@ img {
   font-size: 44.21px;
   line-height: 40.52px;
   text-align: center;
+  margin-bottom: 44px;
 }
 
 .team-list {
@@ -468,7 +469,19 @@ img {
   margin-right: 0;
 }
 
+.team-list li:nth-child(4),
+.team-list li:nth-child(5),
+.team-list li:nth-child(6) {
+  margin-top: 62px;
+  padding-bottom: 138px;
+}
+
+.team-list img {
+  margin-bottom: 30px;
+}
+
 .team-member {
+  margin-bottom: 16px;
   font-size: 15px;
   line-height: 6.9px;
   text-transform: uppercase;
