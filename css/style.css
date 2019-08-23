@@ -548,11 +548,32 @@ background-position: top center;
   line-height: 40.52px;
   margin: 0;
   padding-top: 58px;
+  padding-bottom: 30px;
   text-align: center;
   color: #fefefe;
 }
 
+.news-subscription {
+  display: flex;
+  flex-wrap: wrap;
+  width: 549px;
+}
+
+.sign-up-button-2 {
+  margin-left: 417px;
+  margin-top: 23px;
+  margin-bottom: 72px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
 .field-subscribe {
+  display: block;
+  padding-left: 21px;
+  padding-right: auto;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  min-width: 417px;
   font-family: inherit;
   font-size: 19.16px;
   font-weight: 400;
