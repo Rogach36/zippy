@@ -657,9 +657,17 @@ background-position: top center;
 }
 
 /* подумать над оформлением кнопок при наведении тут серый фон и черный шрифт д.б. */
+.map-location {
+  display: flex;
+}
+
 .location h2 {
   font-size: 44.21px;
   line-height: 40.52px;
+  margin: 0;
+  margin-bottom: 55px;
+  padding-top: 50px;
+  padding-left: 42px;
 }
 
 .map-location {
@@ -669,6 +677,19 @@ background-position: top center;
 .form {
   background-color: #ffe26d;
 }
+
+.write-us {
+  display: flex;
+}
+
+.name,
+.email,
+.theme,
+.letter {
+  margin: 0;
+}
+
+
 
 .connection {
   font-size: 44.21px;
