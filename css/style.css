@@ -588,6 +588,10 @@ background-position: top center;
 для центровки заголовков указать секцию и h2 и text-align: center; и можно и свойства шрифта тоже сюда,
 т.к. у всех заголовков второго уровня один и тот же шрифт, может только быть не удобно т.к. правило будет
 находитья в одном месте, а свойства применяться к разным элементам страницы, не очень удобно искать*/
+.blog {
+  margin-bottom: 88px;
+}
+
 .blog h2 {
   font-size: 44.21px;
   line-height: 40.52px;
@@ -598,24 +602,29 @@ background-position: top center;
 .our-notice {
   display: flex;
   flex-wrap: wrap;
-  list-style: none;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 .notice {
   width: 207px;
-  font-size: 15px;
   margin-right: 36px;
+  text-align: center;
 }
 
 .notice:last-child {
   margin-right: 0;
 }
+/* проверить отступы в блоке Блог */
+.notice img {
+  margin-bottom: 23px;
+}
 
 .notice h3 {
   font-size: 15px;
   text-transform: uppercase;
+  margin-bottom: 7px;
   }
 
 .notice time,
@@ -628,10 +637,16 @@ background-position: top center;
 
 .notice time {
   opacity: 0.5;
+  margin-bottom: 15px;
+}
+
+.notice p {
+  margin-bottom: 25px;
 }
 
 .button-blog {
   background-color: #ececec;
+  margin: 0 auto;
 }
 
 .button-blog:hover,
