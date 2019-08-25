@@ -675,11 +675,13 @@ background-position: top center;
 }
 
 .form {
+  width: 707px;
   background-color: #ffe26d;
 }
 
 .write-us {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .name,
@@ -689,7 +691,15 @@ background-position: top center;
   margin: 0;
 }
 
-
+.name input,
+.email input,
+.theme input,
+.letter input {
+  display: block;
+  height: 44px;
+  margin-left: 43px;
+  width: 311px;
+}
 
 .connection {
   font-size: 44.21px;
