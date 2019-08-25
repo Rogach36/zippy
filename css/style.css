@@ -689,16 +689,30 @@ background-position: top center;
 .theme,
 .letter {
   margin: 0;
-}
+  }
 
 .name input,
 .email input,
 .theme input,
-.letter input {
+.letter textarea {
   display: block;
-  height: 44px;
   margin-left: 43px;
   width: 311px;
+}
+
+/* .name input,
+.mail input,
+.letter textarea {
+  display: block;
+  margin-top: 10px;
+  padding-left: 14px;
+  padding-top: 12px;
+  padding-bottom: 15px;
+  outline: none;
+} из НЕРСД*/
+
+.letter textarea {
+  resize: none;
 }
 
 .connection {
@@ -720,6 +734,8 @@ background-position: top center;
 .send-button {
   color: #fefefe;
   background-color: #62497c;
+  width: 311px;
+  margin-left: 43px;
 }
 
 .footer-social,
@@ -745,3 +761,120 @@ background-position: top center;
 .social-list {
   list-style: none;
 }
+
+/* форма для примера */
+/* .popup {
+  position: fixed;
+  left: 50%;
+  top: 2%;
+  margin-left: -480px;
+  background-color: #ffffff;
+  z-index: 10;
+  width: 960px;
+  padding-top: 68px;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-bottom: 84px;
+  box-shadow: 0 15px 20px 10px #5e5f5f;
+}
+
+.popup-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  position: relative;
+  margin-left: -1px;
+}
+
+.popup-title {
+  margin: 0;
+  margin-bottom: 41px;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 45px;
+  margin-left: -1px;
+}
+
+.name,
+.mail,
+.letter {
+  margin: 0;
+}
+
+.letter {
+  margin-bottom: 47px;
+  width: 100%;
+}
+
+.name input,
+.mail input,
+.letter textarea {
+  display: block;
+  margin-top: 10px;
+  padding-left: 14px;
+  padding-top: 12px;
+  padding-bottom: 15px;
+  outline: none;
+}
+
+.name input {
+  width: 360px;
+  margin-bottom: 32px;
+}
+
+.mail input {
+  width: 360px;
+}
+
+.letter textarea {
+  width: 100%;
+  padding-bottom: 83px;
+  margin-bottom: -12px;
+  resize: none;
+}
+
+.popup-form input,
+.popup-form textarea {
+  border: 2px solid #d7dcde;
+  border-radius: 2px;
+}
+
+.popup-form input:hover,
+.popup-form textarea:hover {
+  border: 2px solid #b4b9bb;
+}
+
+.popup-form input:focus,
+.popup-form textarea:focus {
+  border: 2px solid #000000;
+}
+
+.modal-button {
+  display: block;
+  width: 260px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 76px;
+  right: 90px;
+  width: 20px;
+  height: 20px;
+  border: 0;
+  cursor: pointer;
+  background-color: inherit;
+}
+
+.modal-close::before,
+.modal-close::after {
+  content: "";
+  position: absolute;
+  width: 21px;
+  height: 3px;
+  top: 8px;
+  right: -2px;
+  background-color: #fb565a;
+} */
