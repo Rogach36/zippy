@@ -53,9 +53,9 @@ img {
   background-position: top center;
   background-repeat: no-repeat;
   background-color: #dedede;
-  }
+}
 
- .container-center {
+.container-center {
   width: 700px;
   margin: 0 auto;
   /* padding: 0 10px; */
@@ -184,7 +184,7 @@ img {
   height: 7px;
   background-color: #a99a9e;
   border-radius: 50%;
-  }
+}
 
 .control-1,
 .control-2,
@@ -199,7 +199,7 @@ img {
 }
 
 .welcome-block {
-  border-bottom: 2px solid  #e7e7e7;
+  border-bottom: 2px solid #e7e7e7;
   margin-bottom: 56px;
 }
 
@@ -233,9 +233,8 @@ img {
   line-height: 35px;
   color: inherit;
 }
+
 /*main-idea можно сделать релатив, а зонт абсолютно спозиционировать*/
-
-
 .possibilities-list {
   display: flex;
   flex-wrap: wrap;
@@ -249,7 +248,7 @@ img {
   width: 161px;
   text-align: center;
   margin-right: 108px;
-  }
+}
 
 .possibility img {
   margin-bottom: 10px;
@@ -270,14 +269,14 @@ img {
   font-size: 13px;
   font-weight: 400;
   line-height: 23.58px;
-  }
+}
 
 .button-info {
   display: block;
   margin: 0 auto;
 }
 
- .projects {
+.projects {
   max-width: 1400px;
   margin: 0 auto;
   margin-bottom: 88px;
@@ -296,7 +295,7 @@ img {
   margin: 0;
   padding: 0;
   background-color: #efefef;
-  }
+}
 
 .project-list li {
   margin: 0;
@@ -410,7 +409,6 @@ img {
 .video-list {
   display: flex;
   flex-wrap: wrap;
-
   list-style: none;
   margin: 0 auto;
   padding: 0;
@@ -501,14 +499,14 @@ img {
 .life-slider {
   background-color: #efefef;
 }
+
 /*Попробовать спозиционировать элмент в блоке Life in Zippy так:
 самому блоку задать position relativе, большой картинке absolute, а мальеним под ней тоже absolute
 и сделать этот ряд на флексах или попробовать сделать и большую и мал. картинки на флексах....*/
-
 .life-slider {
   padding-top: 78px;
   padding-bottom: 109px;
-  }
+}
 
 .zippy-life-list {
   display: flex;
@@ -520,11 +518,11 @@ img {
 }
 
 .zippy-life-list li {
-    margin-right: 13px;
+  margin-right: 13px;
 }
 
 .zippy-life-list li:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .main-frame {
@@ -538,11 +536,11 @@ img {
 .newsletter {
   background-image: url("../img/background-feature/bg-2.jpg");
   /* background-position: top center; */
-background-position: top center;
+  background-position: top center;
   background-repeat: no-repeat;
   background-color: #fefefe;
   margin-bottom: 67px;
-  }
+}
 
 .newsletter h2 {
   font-size: 44.21px;
@@ -616,6 +614,7 @@ background-position: top center;
 .notice:last-child {
   margin-right: 0;
 }
+
 /* проверить отступы в блоке Блог */
 .notice img {
   margin-bottom: 23px;
@@ -625,7 +624,7 @@ background-position: top center;
   font-size: 15px;
   text-transform: uppercase;
   margin-bottom: 7px;
-  }
+}
 
 .notice time,
 .notice p {
@@ -659,14 +658,15 @@ background-position: top center;
 /* подумать над оформлением кнопок при наведении тут серый фон и черный шрифт д.б. */
 .map-location {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .location h2 {
   font-size: 44.21px;
   line-height: 40.52px;
   margin: 0;
-  margin-bottom: 55px;
-  padding-top: 50px;
+  margin-bottom: 37px;
+  padding-top: 52px;
   padding-left: 42px;
 }
 
@@ -689,29 +689,22 @@ background-position: top center;
 .theme,
 .letter {
   margin: 0;
-  }
-
-.name input,
-.email input,
-.theme input,
-.letter textarea {
-  display: block;
+  padding: 0;
   margin-left: 43px;
-  width: 311px;
+  margin-right: auto;
 }
 
-/* .name input,
-.mail input,
-.letter textarea {
+.write-us input,
+.field-message {
   display: block;
-  margin-top: 10px;
-  padding-left: 14px;
-  padding-top: 12px;
-  padding-bottom: 15px;
-  outline: none;
-} из НЕРСД*/
+  width: 311px;
+  margin: 13px 0 22px;
+  padding: 11px 0;
+  border: 0;
+}
 
-.letter textarea {
+.field-message {
+  padding: 70px 0 75px;
   resize: none;
 }
 
@@ -726,16 +719,12 @@ background-position: top center;
   text-transform: uppercase;
 }
 
-.write-us input,
-.field-message {
-  border: 0;
-}
-
 .send-button {
   color: #fefefe;
   background-color: #62497c;
   width: 311px;
   margin-left: 43px;
+  margin-bottom: 52px;
 }
 
 .footer-social,
@@ -761,120 +750,3 @@ background-position: top center;
 .social-list {
   list-style: none;
 }
-
-/* форма для примера */
-/* .popup {
-  position: fixed;
-  left: 50%;
-  top: 2%;
-  margin-left: -480px;
-  background-color: #ffffff;
-  z-index: 10;
-  width: 960px;
-  padding-top: 68px;
-  padding-right: 100px;
-  padding-left: 100px;
-  padding-bottom: 84px;
-  box-shadow: 0 15px 20px 10px #5e5f5f;
-}
-
-.popup-form {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 18px;
-  position: relative;
-  margin-left: -1px;
-}
-
-.popup-title {
-  margin: 0;
-  margin-bottom: 41px;
-  font-size: 45px;
-  font-weight: 500;
-  line-height: 45px;
-  margin-left: -1px;
-}
-
-.name,
-.mail,
-.letter {
-  margin: 0;
-}
-
-.letter {
-  margin-bottom: 47px;
-  width: 100%;
-}
-
-.name input,
-.mail input,
-.letter textarea {
-  display: block;
-  margin-top: 10px;
-  padding-left: 14px;
-  padding-top: 12px;
-  padding-bottom: 15px;
-  outline: none;
-}
-
-.name input {
-  width: 360px;
-  margin-bottom: 32px;
-}
-
-.mail input {
-  width: 360px;
-}
-
-.letter textarea {
-  width: 100%;
-  padding-bottom: 83px;
-  margin-bottom: -12px;
-  resize: none;
-}
-
-.popup-form input,
-.popup-form textarea {
-  border: 2px solid #d7dcde;
-  border-radius: 2px;
-}
-
-.popup-form input:hover,
-.popup-form textarea:hover {
-  border: 2px solid #b4b9bb;
-}
-
-.popup-form input:focus,
-.popup-form textarea:focus {
-  border: 2px solid #000000;
-}
-
-.modal-button {
-  display: block;
-  width: 260px;
-}
-
-.modal-close {
-  position: absolute;
-  top: 76px;
-  right: 90px;
-  width: 20px;
-  height: 20px;
-  border: 0;
-  cursor: pointer;
-  background-color: inherit;
-}
-
-.modal-close::before,
-.modal-close::after {
-  content: "";
-  position: absolute;
-  width: 21px;
-  height: 3px;
-  top: 8px;
-  right: -2px;
-  background-color: #fb565a;
-} */
