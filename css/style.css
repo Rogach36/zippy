@@ -656,9 +656,15 @@ img {
 }
 
 /* подумать над оформлением кнопок при наведении тут серый фон и черный шрифт д.б. */
+.location {
+  width: 1400px;
+  margin: 0 auto;
+  margin-bottom: 79px;
+}
+
 .map-location {
   display: flex;
-  flex-wrap: wrap;
+  list-style: none;
 }
 
 .location h2 {
@@ -668,10 +674,6 @@ img {
   margin-bottom: 37px;
   padding-top: 52px;
   padding-left: 42px;
-}
-
-.map-location {
-  list-style: none;
 }
 
 .form {
