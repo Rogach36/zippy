@@ -691,7 +691,7 @@ img {
 .name,
 .email,
 .theme,
-.letter {
+.message {
   margin: 0;
   padding: 0;
   margin-left: 43px;
@@ -739,8 +739,8 @@ img {
 .address,
 .footer-social,
 .footer-contacts {
-  width: 165px; 
-   text-align: center; 
+  width: 165px;
+   text-align: center;
 }
 
 .footer-social {
