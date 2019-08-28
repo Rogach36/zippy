@@ -73,6 +73,7 @@ img {
   margin-bottom: 124px;
   font-size: 10px;
   line-height: 7px;
+  text-transform: uppercase;
   color: #ffffff;
 }
 
@@ -80,6 +81,7 @@ img {
   margin-right: 197px;
   font-size: 29px;
   line-height: 7px;
+  letter-spacing: -3.4px;
   color: #ffffff;
 }
 
@@ -87,8 +89,9 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
-  margin-left: auto;
   padding: 0;
+  margin-top: 8px;
+  margin-left: auto;
   list-style: none;
 }
 
@@ -114,10 +117,13 @@ img {
 }
 
 .feature-slide .title-slide {
+margin: 0;
+padding: 0;
   margin-bottom: 29px;
+  width: 515px;
   font-size: 40.69px;
   line-height: 120%;
-  padding-right: 95px;
+  /* padding-right: 5px; */
 }
 
 .description {
