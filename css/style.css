@@ -181,7 +181,7 @@ padding: 0;
 
 .some-features {
   position: relative;
-  margin-bottom: 90px;
+  margin-bottom: 83px;
 }
 
 .feature-controls {
@@ -215,21 +215,24 @@ padding: 0;
 .welcome-block {
   border-bottom: 2px solid #e7e7e7;
   margin-bottom: 56px;
+  padding-bottom: 4px;
 }
 
 .welcome-block h2 {
   margin-bottom: 83px;
-}
+  }
 
 .main-idea {
   position: relative;
-  margin-bottom: 74px;
+  margin-bottom: 69px;
 }
 
 .main-idea h2 {
+  margin-bottom: 76px;
   font-size: 44.21px;
   line-height: 40.52px;
   text-align: center;
+
 }
 
 .main-idea p {
@@ -238,8 +241,8 @@ padding: 0;
 
 .main-idea img {
   position: absolute;
-  top: 105px;
-  left: 560px;
+  top: 102px;
+  left: 507px;
 }
 
 .description-page {
@@ -265,7 +268,7 @@ padding: 0;
 }
 
 .possibility img {
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 .possibilities-list li:nth-child(3) {
@@ -273,11 +276,13 @@ padding: 0;
 }
 
 .possibilities-title {
-  margin-bottom: 20px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #62497c;
 }
 
 .possibilities-description {
-  margin-bottom: 33px;
+  margin-bottom: 35px;
   padding: 0 2px;
   font-family: "Helvetica", Arial, sans-serif;
   font-size: 13px;
