@@ -52,7 +52,7 @@ img {
   background-image: url("../img/background-feature/bg-1.jpg");
   background-position: top center;
   background-repeat: no-repeat;
-  background-color: #dedede;
+  background-color: #bdbdbd;
 }
 
 .container-center {
@@ -78,6 +78,7 @@ img {
 
 .logo {
   margin-right: 197px;
+  margin-top: 7px;
   font-size: 29px;
   line-height: 7px;
   letter-spacing: -3.4px;
@@ -89,7 +90,7 @@ img {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
-  margin-top: 8px;
+  margin-top: 15px;
   margin-left: auto;
   list-style: none;
 }
@@ -113,6 +114,7 @@ img {
 
 .feature-slide {
   color: #ffffff;
+  padding-bottom: 48px;
 }
 
 .feature-slide .title-slide {
@@ -135,7 +137,7 @@ padding: 0;
 }
 
 .description-slide {
-  margin-bottom: 40px;
+  margin-bottom: 37px;
   max-width: 431px;
   font-size: 19.16px;
   line-height: 120%;
@@ -145,8 +147,8 @@ padding: 0;
 
 .button {
   display: block;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 17px;
+  padding-bottom: 17px;
   width: 125px;
   font: inherit;
   font-size: 10.32px;
@@ -173,7 +175,8 @@ padding: 0;
 }
 
 .button-info-1 {
-  margin-right: 7px;
+  margin-right: 3px;
+  margin-left: 5px;
 }
 
 .some-features {
@@ -183,7 +186,7 @@ padding: 0;
 
 .feature-controls {
   position: absolute;
-  bottom: 37px;
+  bottom: 48px;
   width: 61px;
   height: 8px;
 }
@@ -200,7 +203,7 @@ padding: 0;
 .control-1,
 .control-2,
 .control-3 {
-  margin-right: 7px;
+  margin-right: 4px;
 }
 
 .feature-controls a:hover,
