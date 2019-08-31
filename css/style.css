@@ -298,7 +298,7 @@ padding: 0;
 .projects {
   max-width: 1400px;
   margin: 0 auto;
-  margin-bottom: 88px;
+  margin-bottom: 87px;
 }
 
 .projects h2 {
@@ -363,10 +363,21 @@ padding: 0;
 
 .price td {
   width: 236px;
-  padding-left: ;
-  padding-right: ;
-  border-right: 1px solid #e7e7e7;
-  text-align: center;
+   border-right: 1px solid #e7e7e7;
+
+}
+
+.price .terms {
+  padding-bottom: 26px;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 10.32px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.terms p {
+  padding: 0;
+  margin: 0;
 }
 
 .price td:last-child {
@@ -374,7 +385,10 @@ padding: 0;
 }
 
 .button-buy {
+  width: 80px;
   margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .table-name {
@@ -385,6 +399,7 @@ padding: 0;
   font-size: 44.21px;
   line-height: 40.52px;
   text-align: center;
+  margin-bottom: 54px;
 }
 
 .pricing-table {
@@ -394,23 +409,17 @@ padding: 0;
 .plan-title {
   font-size: 14.74px;
   line-height: 6.9px;
+  text-transform: uppercase;
 }
 
 .plan-title td {
-  padding-bottom: 21px;
+  padding-bottom: 17px;
 }
 
-.payment {
+.payment td {
   font-weight: 400;
   color: #9d9d9d;
-}
-
-.terms {
-  padding-bottom: 26px;
-  font-family: "Helvetica", Arial, sans-serif;
-  font-size: 10.32px;
-  font-weight: 400;
-  line-height: 22px;
+  padding-bottom: 12px;
 }
 
 .video-project {
