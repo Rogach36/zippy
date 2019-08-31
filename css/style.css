@@ -214,7 +214,7 @@ padding: 0;
 
 .welcome-block {
   border-bottom: 2px solid #e7e7e7;
-  margin-bottom: 56px;
+  margin-bottom: 55px;
   padding-bottom: 4px;
 }
 
@@ -310,6 +310,7 @@ padding: 0;
 
 .project-list {
   display: flex;
+  /* flex-wrap: wrap; */
   list-style: none;
   margin: 0;
   padding: 0;
@@ -318,19 +319,20 @@ padding: 0;
 
 .project-list li {
   margin: 0;
+  margin-left: -1px;
   padding: 0;
   width: 353px;
 }
 
 .project-list img {
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 .project-list h3 {
   font-size: 15px;
   line-height: 40.52px;
   text-transform: uppercase;
-  margin-bottom: 3px;
+  margin-bottom: -17px;
   padding-left: 43px;
 }
 
@@ -347,7 +349,7 @@ padding: 0;
   font-size: 13px;
   font-weight: 400;
   line-height: 23.58px;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
   padding: 0 35px 0 43px;
 }
 
