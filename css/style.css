@@ -534,16 +534,16 @@ left: 3px;
 .team-list li:nth-child(4),
 .team-list li:nth-child(5),
 .team-list li:nth-child(6) {
-  margin-top: 62px;
-  padding-bottom: 138px;
+  margin-top:49px;
+  padding-bottom: 129px;
 }
 
 .team-list img {
-  margin-bottom: 30px;
+  margin-bottom: 13px;
 }
 
 .team-member {
-  margin-bottom: 16px;
+  margin-bottom: 23px;
   font-size: 15px;
   line-height: 6.9px;
   text-transform: uppercase;
