@@ -443,8 +443,8 @@ padding: 0;
   font-size: 44.21px;
   line-height: 40.52px;
   color: #fefefe;
-  padding-top: 113px;
-  padding-bottom: 38px;
+  padding-top: 83px;
+  padding-bottom: 12px;
   text-align: center;
 }
 
@@ -458,21 +458,44 @@ padding: 0;
 }
 
 .video-list li {
-  margin-right: 34px;
+  margin-right: 35px;
 }
 
 .video-list li:last-child {
   margin-right: 0;
 }
 
-.middle-frame {
+.middle-frame,
+.left-frame,
+.right-frame {
   position: relative;
+  margin-bottom: 142px;
+}
+
+.time-left {
+  position: absolute;
+  top: 474px;
+  right: 1px;
+}
+
+.title-middle {
+  position: absolute;
+  top: 474px;
+  left: 2px;
 }
 
 .time-middle {
   position: absolute;
-  top: 468px;
-  left: 670px;
+  top: 474px;
+  left: 2px;
+
+}
+
+.title-right {
+position: absolute;
+top: 474px;
+left: 3px;
+
 }
 
 .video-list p {
@@ -480,14 +503,13 @@ padding: 0;
   line-height: 6.9px;
   text-transform: uppercase;
   color: #fefefe;
-  padding-bottom: 117px;
 }
 
 .team h2 {
   font-size: 44.21px;
   line-height: 40.52px;
   text-align: center;
-  margin-bottom: 44px;
+  margin-bottom: 50px;
 }
 
 .team-list {
