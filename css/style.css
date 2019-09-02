@@ -371,7 +371,6 @@ padding: 0;
 }
 
 .price .terms {
-  padding-bottom: 26px;
   font-family: "Helvetica", Arial, sans-serif;
   font-size: 10.32px;
   font-weight: 400;
@@ -395,7 +394,8 @@ padding: 0;
 }
 
 .button-price td {
-  padding-top: 18px;
+  padding-top: 20px;
+  padding-right: 8px;
 }
 
 .pricing-table .table-name {
@@ -421,17 +421,13 @@ padding: 0;
 }
 
 .plan-title td {
-  padding-bottom: 17px;
-}
-
-.plan-title .expander {
-  width: 230px;
+  padding-bottom: 19px;
 }
 
 .payment td {
   font-weight: 400;
   color: #9d9d9d;
-  padding-bottom: 9px;
+  padding-bottom: 13px;
 }
 
 .month-hi-register {
