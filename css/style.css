@@ -421,13 +421,13 @@ padding: 0;
 }
 
 .plan-title td {
-  padding-bottom: 19px;
+  padding-bottom: 16px;
 }
 
 .payment td {
   font-weight: 400;
   color: #9d9d9d;
-  padding-bottom: 13px;
+  padding-bottom: 8px;
 }
 
 .month-hi-register {
@@ -505,10 +505,14 @@ left: 3px;
   color: #fefefe;
 }
 
-.team h2 {
+.title-team {
   font-size: 44.21px;
   line-height: 40.52px;
   text-align: center;
+
+}
+
+.title-band {
   margin-bottom: 50px;
 }
 
@@ -534,12 +538,12 @@ left: 3px;
 .team-list li:nth-child(4),
 .team-list li:nth-child(5),
 .team-list li:nth-child(6) {
-  margin-top:49px;
+  margin-top: 53px;
   padding-bottom: 129px;
 }
 
 .team-list img {
-  margin-bottom: 13px;
+  margin-bottom: 11px;
 }
 
 .team-member {
@@ -562,14 +566,14 @@ left: 3px;
 
 .life-slider {
   background-color: #efefef;
+  padding-top: 77px;
+  padding-bottom: 100px;
 }
 
-/*Попробовать спозиционировать элмент в блоке Life in Zippy так:
-самому блоку задать position relativе, большой картинке absolute, а мальеним под ней тоже absolute
-и сделать этот ряд на флексах или попробовать сделать и большую и мал. картинки на флексах....*/
-.life-slider {
-  padding-top: 78px;
-  padding-bottom: 109px;
+.title-life {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 44px;
 }
 
 .zippy-life-list {
@@ -577,7 +581,7 @@ left: 3px;
   flex-wrap: wrap;
   width: 696px;
   list-style: none;
-  margin: 0;
+      margin: 0 auto;
   padding: 0;
 }
 
@@ -591,6 +595,7 @@ left: 3px;
 
 .main-frame {
   order: 1;
+  margin-bottom: 8px;
 }
 
 .small-frame {
