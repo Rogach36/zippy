@@ -58,7 +58,7 @@ img {
 .container-center {
   width: 700px;
   margin: 0 auto;
-  }
+}
 
 .main-header {
   margin-bottom: 32px;
@@ -118,13 +118,12 @@ img {
 }
 
 .feature-slide .title-slide {
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
   margin-bottom: 29px;
   width: 515px;
   font-size: 40.69px;
   line-height: 120%;
-
 }
 
 .title-slide {
@@ -142,7 +141,6 @@ padding: 0;
   font-size: 19.16px;
   line-height: 120%;
   word-spacing: 0.05em;
-
 }
 
 .button {
@@ -220,7 +218,7 @@ padding: 0;
 
 .welcome-block h2 {
   margin-bottom: 83px;
-  }
+}
 
 .main-idea {
   position: relative;
@@ -232,7 +230,6 @@ padding: 0;
   font-size: 44.21px;
   line-height: 40.52px;
   text-align: center;
-
 }
 
 .main-idea p {
@@ -276,9 +273,9 @@ padding: 0;
 }
 
 .possibilities-title {
-    margin-bottom: 15px;
-    text-transform: uppercase;
-    color: #62497c;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color: #62497c;
 }
 
 .possibilities-description {
@@ -360,14 +357,11 @@ padding: 0;
 .price {
   text-align: center;
   border-collapse: collapse;
-
-
 }
 
 .price td {
   width: 236px;
   border-right: 2px solid #e7e7e7;
-
 }
 
 .price .terms {
@@ -488,14 +482,12 @@ padding: 0;
   position: absolute;
   top: 474px;
   left: 2px;
-
 }
 
 .title-right {
-position: absolute;
-top: 474px;
-left: 3px;
-
+  position: absolute;
+  top: 474px;
+  left: 3px;
 }
 
 .video-list p {
@@ -509,7 +501,6 @@ left: 3px;
   font-size: 44.21px;
   line-height: 40.52px;
   text-align: center;
-
 }
 
 .title-band {
@@ -581,7 +572,7 @@ left: 3px;
   flex-wrap: wrap;
   width: 696px;
   list-style: none;
-      margin: 0 auto;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -631,20 +622,18 @@ left: 3px;
 .sign-up-button-2 {
   padding-top: 24px;
   padding-bottom: 24px;
-width: 131px;
+  width: 131px;
 }
 
 .sign-up-button-2 {
   margin-left: 417px;
   margin-top: 23px;
   margin-bottom: 72px;
-
 }
 
 .field-subscribe {
   display: block;
   padding-left: 17px;
-
   padding-top: 5px;
   padding-bottom: 8px;
   min-width: 416px;
@@ -701,7 +690,6 @@ width: 131px;
   font-size: 15px;
   line-height: 17px;
   text-transform: uppercase;
-
 }
 
 .notice time,
@@ -751,8 +739,8 @@ width: 131px;
   font-size: 44.21px;
   line-height: 40.52px;
   margin: 0;
-  margin-bottom: 37px;
-  padding-top: 52px;
+  margin-bottom: 34px;
+  padding-top: 47px;
   padding-left: 42px;
 }
 
@@ -780,14 +768,15 @@ width: 131px;
 .field-message {
   display: block;
   width: 311px;
-  margin: 13px 0 22px;
-  padding: 11px 0;
+  margin: 15px 0 22px;
+  padding: 16px 0;
   border: 0;
 }
 
 .field-message {
-  padding: 70px 0 75px;
+  padding: 46px 0 75px;
   resize: none;
+  margin-bottom: 16px;
 }
 
 .connection {
@@ -807,6 +796,8 @@ width: 131px;
   width: 311px;
   margin-left: 43px;
   margin-bottom: 52px;
+  padding-top: 19px;
+  border-radius: initial;
 }
 
 .social-connection {
@@ -818,7 +809,7 @@ width: 131px;
 .footer-social,
 .footer-contacts {
   width: 165px;
-   text-align: center;
+  text-align: center;
 }
 
 .footer-social {
@@ -826,7 +817,7 @@ width: 131px;
 }
 
 .footer-contacts p {
-margin: 0;
+  margin: 0;
 }
 
 .social-connection h3 {
