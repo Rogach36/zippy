@@ -248,7 +248,6 @@ img {
   color: inherit;
 }
 
-/*main-idea можно сделать релатив, а зонт абсолютно спозиционировать*/
 .possibilities-list {
   display: flex;
   flex-wrap: wrap;
@@ -307,7 +306,6 @@ img {
 
 .project-list {
   display: flex;
-  /* flex-wrap: wrap; */
   list-style: none;
   margin: 0;
   padding: 0;
@@ -547,7 +545,6 @@ img {
 .post {
   font-size: 15px;
   line-height: 6.9px;
-  /* color: #9d9d9d; */
   opacity: 0.39;
 }
 
@@ -595,7 +592,6 @@ img {
 
 .newsletter {
   background-image: url("../img/background-feature/bg-2.jpg");
-  /* background-position: top center; */
   background-position: top center;
   background-repeat: no-repeat;
   background-color: #fefefe;
@@ -645,11 +641,6 @@ img {
   border: 0;
 }
 
-/*
-попробовать позадавать общие стили через группы селекторов с двумя уровнями вложенности, т.е.
-для центровки заголовков указать секцию и h2 и text-align: center; и можно и свойства шрифта тоже сюда,
-т.к. у всех заголовков второго уровня один и тот же шрифт, может только быть не удобно т.к. правило будет
-находитья в одном месте, а свойства применяться к разным элементам страницы, не очень удобно искать*/
 .blog {
   margin-bottom: 88px;
 }
@@ -679,7 +670,6 @@ img {
   margin-right: 0;
 }
 
-/* проверить отступы в блоке Блог */
 .notice img {
   margin-bottom: 10px;
 }
@@ -721,7 +711,6 @@ img {
   background-color: #ffe26d;
 }
 
-/* подумать над оформлением кнопок при наведении тут серый фон и черный шрифт д.б. */
 .location {
   width: 1400px;
   margin: 0 auto;
@@ -800,7 +789,6 @@ img {
   border-radius: initial;
 }
 
-
 .social-connection {
   display: flex;
   padding-bottom: 123px;
@@ -809,13 +797,13 @@ img {
 .address,
 .footer-social,
 .footer-contacts {
-  margin-left: 50px;
+  margin-left: 76px;
   width: 165px;
   text-align: center;
 }
 
-.footer-social {
-  padding: 0 29px;
+.address {
+  margin-left: 23px;
 }
 
 .footer-contacts p {
@@ -823,7 +811,7 @@ img {
 }
 
 .social-connection h3 {
-  margin-bottom: 18px;
+
   font-size: 10px;
   font-weight: 700;
   line-height: 10px;
@@ -832,7 +820,11 @@ img {
 }
 
 .social-title {
-  margin-bottom: 10px;
+  margin-bottom: 18px;
+}
+
+.title-social-icon {
+  margin-bottom: 29px;
 }
 
 .social-connection p,
@@ -849,15 +841,26 @@ img {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  padding-left: 29px;
   list-style: none;
 }
 
 .social-list li {
-  width: 35px;
+  width: 24px;
 }
 
 .social-list li:nth-child(1),
 .social-list li:nth-child(2),
 .social-list li:nth-child(3) {
-  margin-bottom: 16px;
+  margin-bottom: 9px;
+  margin-right: 20px;
+}
+
+.social-list li:nth-child(4) {
+  padding-right: 9px;
+  margin-right: 19px;
+}
+
+.social-list li:nth-child(5) {
+  margin-right: 23px;
 }
